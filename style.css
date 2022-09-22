@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+body.dark {
+    background-color: #000000;
+}
+
+body.dark .main {
+    background-color: #1F2937;
+}
+
+body.dark #unit {
+    background-color: #273549;
+    color: #CCC1FF;
+}
+
+body.dark p {
+    color: #FFFFFF;
+}
+
+.main {
+    background-color: #F4F4F4;
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-color: #6943FF;
+    margin: 0 auto;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 34px;
+}
+
+h2 {
+    font-size: 28px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+#input {
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    padding: 5px;
+    font-size: 58px;
+    font-weight: 800;
+    width: 40%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 25px;
+    width: 40%;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    border-radius: 5px;
+    border: none;
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+}
+
+#unit {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 26px 25px;
+    padding: 31px 77px;
+    font-family: "Inter", sans-serif;
+}
+
+h3 {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 10px;
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn {
+    margin: 26px 10px;
+}
+
+#dark-btn {
+    width: 50;
+    margin: 26px 10px;
+    color: #CCC1FF;
+    background-color: #1F2937;
+    border: 1px solid #CCC1FF;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        padding: 17px;
+    }
+
+    #input {
+        font-size: 45px;
+        /* font-weight: 800; */
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    #unit {
+        margin: 13px;
+        padding: 31px 45px;
+    }
+
+
+}
